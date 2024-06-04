@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+    
+                <p id="homes"> 0 </p>
+                <div class="incre">
+                <p id="denom" onclick="dunk()"> +1 </p>
+                <p id="denom" onclick="layup()"> +2 </p>
+                <p id="denom" onclick="three()"> +3 </p>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                
+                <p id="away"> 0 </p>
+                <div class="incre">
+                <p id="denom" onclick="dunks()"> +1 </p>
+                <p id="denom" onclick="layups()"> +2 </p>
+                <p id="denom" onclick="threes()"> +3 </p>
+                </div>
+                            <button onclick="reset()"> Reset </button>
+
+            </div>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

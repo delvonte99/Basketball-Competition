@@ -1,0 +1,61 @@
+body {
+ margin: 0;
+text-align: center;
+width: 575px;
+height: 375px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+  
+    background-color: #1B244A; 
+    padding-bottom: 69px;
+}
+#homes{
+    margin-top: 21px;
+    margin-bottom: 0px;
+    width:155px;
+    height: 120px;
+    font-size: 126px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    background: black;
+    padding: 20px;
+    
+    }
+    #away{
+    margin-top: 21px;
+    margin-bottom: 0px;
+    width:155px;
+    height: 120px;
+    font-size: 126px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    background: black;
+    padding: 20px;
+    
+    }
+.incre{
+    display: flex;
+    justify-content: center;
+    align-content: space-around
+    height: 45px;
+    margin-top: 26px;
+}
+#denom{
+    width: 45px; 
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-right: 9px;
+    align-content: center;    
+}
+
+h3{
+    margin-top:68px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
